@@ -1,0 +1,31 @@
+{
+  "name": "Playwire",
+  "type": "wikia-playwire",
+  "tagName": "wikia-playwire",
+  "version": 0.1,
+  "description": "Injects playwire player",
+  "files": {
+    "js": [
+      "playwire.js"
+    ]
+  },
+  "attributes": [
+   {
+    "name": "publisherId",
+    "label": "Publisher ID",
+    "type": "integer",
+    "required": true
+   },
+   {
+    "name": "videoId",
+    "label": "Video ID",
+    "type": "integer",
+    "required": true
+   }
+  ],
+  "events": [
+  ],
+  "methods": [
+  ],
+  "nestable": false
+}
